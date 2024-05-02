@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: "Noto Sans", sans-serif;
+}
+
+.top{
+    background-image: url(/assets/img/Placement\ Area\ [ASSEThero][SIZEDefault][STATEDEFAULT].png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 768px;
+}
+
 .margin-right-auto{
     margin-right: auto;
 }
@@ -15,36 +26,91 @@
     display: inline-block;
 }
 
-.nav-dark-bg{
-    background-color: #c9c9c9;
-    min-height: 103px;
-    margin-bottom: 100px;
-}
-
-.nav-dark-bg ul{
+.flex-space-around ul{
     min-height: 103px;
     display: flex;
     list-style-type: none;
     gap: 24px;
     align-items: center;
-    justify-content: flex-end;
-    padding-right: 134px;
+    justify-content: space-around;
+    padding: 49px 142px;
+    font-size: 16px;
 }
 
-.nav-dark-bg a{
+.flex-space-around a{
     text-decoration: none;
-    color: #8B8B8B;
 }
 
-.nav-dark-bg a:hover{
+.flex-space-around a:hover{
     color: #000000;
 }
 
-.btn-square{
+.small-btn{
+    color: #8B8B8B;
+}
+
+.big-btn{
+    color: #fff;
     background-color: #3C3C3C;
 }
 
 .btn-square:hover{
     color: #000000;
     background-color: #ffffff;
+}
+
+h1 {
+    color: #3C3C3C;
+    font-size: 56px;
+    padding-top: 200px;
+    padding-bottom: 47px;
+    text-align: center;
+  }
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+
+.subheader{
+    color: #3D3D3D;
+    font-size: 18pt;
+    display: flex;
+    justify-content: center;
+    padding-right: 403px;
+    padding-left: 403px;
+    padding-bottom: 69px;
+    text-align: center;
+}
+
+.btn-center{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    background-color: #3C3C3C;
+    padding: 19px 41px;
+}
+
+.btn-center:hover{
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    color: #3D3D3D;
+    font-size: 40px;
+    padding-left: 147px;
+    padding-top: 142px;
+}
+
+.filler-text{
+    color: #3D3D3D;
+    font-size: 16px;
+    padding-left: 147px;
 }
